@@ -1,0 +1,10 @@
+#use workspace;
+#create table student(id int,s_name varchar(25),s_marks int);
+#insert into student values(1,'sampada',90);
+#insert into student values(2,'sam',92),(3,'sita',56);
+#delete from student where id=1;
+#delete from student;
+#insert into student values(1,'sampada',90);
+#insert into student values(2,'sam',92),(3,'sita',56);
+#drop table student;
+select* from student;
